@@ -1,5 +1,4 @@
-# FS-Comp-Analysis
-Snapshot of Finite State's platform against other competition (Cybellum, ONEKEY, Black Duck, Medcrypt). Finite's product, particularly with AgentOS and the reachability engine reducing vulnerability noise by up to 90%, is genuinely differentiated. 
+[index (1).html](https://github.com/user-attachments/files/25611638/index.1.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
