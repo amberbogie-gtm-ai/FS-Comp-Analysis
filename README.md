@@ -1,9 +1,13 @@
 
-<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Finite State · Competitive Overview</title>
+  <style>
+    /* GitHub Pages sometimes wraps content — ensure our layout always wins */
+    html, body { margin: 0 !important; padding: 0 !important; }
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -38,6 +42,11 @@
       justify-content: center;
       padding: 48px 24px;
     }
+
+    /* hide any GitHub-injected page headers */
+    body > h1:first-of-type,
+    body > header,
+    .markdown-body h1 { display: none !important; }
 
     /* subtle grid */
     body::after {
@@ -141,7 +150,7 @@
       color: var(--muted); vertical-align: middle;
     }
     td.row-label {
-      color: var(--text); font-weight: 500;
+      color: #B0BDD0; font-weight: 500;
       white-space: nowrap; font-size: 13px;
     }
     td.col-fs {
